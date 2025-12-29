@@ -48,8 +48,9 @@ int main(){
 
     // Entrada dos dados da Carta 2
     printf("\n-----Segunda carta escolhida----\n");
+
     printf("Digite o Estado (A-H):");
-    scanf("%c", estado2);
+    scanf(" %c", &estado2);
 
     printf("Digite o codigo da carta (ex: B01):");
     scanf("%s", codigo2);
